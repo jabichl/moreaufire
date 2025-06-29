@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Moreau Fire Protection District</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <h1>Moreau Fire Protection District</h1>
+    <p>Serving 280 Square Miles of Mid-Missouri</p>
+  </header>
+  <nav class="nav" id="nav">
+    <div class="menu-icon" onclick="toggleMenu()">☰</div>
+    <ul class="nav-links">
+      <li><a href="burn-status.html">Burn Status</a></li>
+      <li><a href="weather.html">Weather</a></li>
+      <li><a href="calendar.html">Calendar</a></li>
+      <li><a href="volunteer.html">Volunteer</a></li>
+      <li><a href="board.html">Board Info</a></li>
+      <li><a href="admin.html">Admin Login</a></li>
+    </ul>
+  </nav>
+  <main>
+    <section>
+      <h2>Welcome to Moreau Fire</h2>
+      <p>We proudly protect our community with a dedicated team of volunteer firefighters. Stay informed, get involved, and explore the services we offer below.</p>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 Moreau Fire Protection District | <a href="privacy.html">Privacy Policy</a></p>
+  </footer>
+  <script>
+    function toggleMenu() {
+      document.getElementById('nav').classList.toggle('active');
+    }
+  </script>
+</body>
+</html>
