@@ -4,11 +4,32 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Moreau Fire Protection District</title>
-  <link rel="stylesheet" href="style.css" />
-</head>
-<body>
-  <header>
-    <h1>Moreau Fire Protection District</h1>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+    }
+
+    header {
+      background-image: url('./images/moreau-fire-header.webp');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      height: 300px;
+    }
+
+    /* Optional: Add fallback for users with no WebP support */
+    noscript img {
+      width: 100%;
+      display: block;
+    }
+  </style>
   </header>
   <nav class="nav" id="nav">
     <div class="menu-icon" onclick="toggleMenu()">☰</div>
