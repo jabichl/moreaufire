@@ -1,30 +1,33 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Moreau Fire Protection District</title>
   <style>
-    body {
+    * {
       margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
       font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
     }
 
     header {
-      background-image: url('/images/33431EB1-1234-4D0C-A257-4AF2679EF198.jpeg'); /* Replace with correct path */
+      background-image: url('./images/moreau-fire-header.webp');
       background-size: cover;
       background-position: center;
-      height: 300px; /* Adjust height as needed */
-      display: flex;
-      align-items: center;
-      justify-content: center;
+      background-repeat: no-repeat;
+      height: 300px;
     }
 
-    header h1 {
-      color: white;
-      font-size: 2.5rem;
-      background-color: rgba(0, 0, 0, 0.5);
-      padding: 10px 20px;
-      border-radius: 8px;
+    /* Optional: Add fallback for users with no WebP support */
+    noscript img {
+      width: 100%;
+      display: block;
     }
   </style>
 </head>
